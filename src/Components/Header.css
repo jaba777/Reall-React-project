@@ -1,0 +1,94 @@
+
+:root{
+    --blue: #007bff;
+    --cyan: #17a2b8;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    z-index: 2;
+
+}
+
+.header .header-main{
+    background-color: rgba(36,41,62,.8) !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+.header .header-main .header-right{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.header .header-main .header-right .menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.header .header-main .header-right .menu li{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-left: 0.9rem;
+    cursor: pointer;
+}
+
+.header .header-main .header-right .menu li:hover{
+    color: var(--cyan);
+}
+
+.header .header-main .header-right .menu .sing-up{
+    border: 2px solid var(--cyan);
+    padding: 0.6rem 0.7rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.header .header-main  .menu .sing-up a,
+.header .header-main  .menu .login a{
+    color: var(--cyan) !important;
+}
+
+.header .header-main  .menu .sing-up:hover{
+    background-color: var(--cyan);
+    border-radius: 0;
+    
+}
+
+.header .header-main  .menu .sing-up:hover a{
+    color: #fff !important;
+}
+
+.header .header-main  .fb-icon{
+    margin-left: 2rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header .header-main  .fb-icon:hover{
+    background-color: #3b5a9a;
+}
+
+.header .header-main  .menu-icon{
+    border: none;
+    padding: 0.4rem 0.5rem;
+    cursor: pointer;
+    background-color: rgba(36,41,62,.8);
+    color: #fff;
+    border-radius: 4px;
+    display: none;
+}
