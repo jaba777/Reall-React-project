@@ -1,0 +1,152 @@
+.dropship{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.dropship h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #49547d;
+    font-weight: 800;
+}
+
+.dropship .product-icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dropship .product-icons .product-icon{
+    width: 120px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+   cursor: pointer;
+   margin: 1.7rem;
+}
+
+.dropship .product-icons .product-icon:hover{
+    border-bottom: 3px solid #49547d
+}
+
+.dropship .product-icons .product-icon p{
+    margin-top: 5px;
+    color: #49547d;
+}
+
+.dropship .product-icons .selected{
+    border-bottom: 3px solid #49547d;
+}
+.dropship .product-icons .selected{
+    border-bottom: 3px solid #49547d;
+}
+
+.dropship .product-title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dropship .product-title #container{
+    position: relative;
+    width: 500px;
+    overflow: hidden;
+    margin: 0.3rem;
+}
+
+.dropship .product-title #container .title-image{
+    width: 500px;
+    cursor: pointer;
+    
+}
+
+
+.dropship .product-title #container .title-image img{
+    width: 100%;
+    
+}
+
+
+
+.dropship .product-title #container button{
+    position: absolute;
+    top: 40%;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+    color: rgba(110, 110, 112,0.8);
+    font-weight: 800;
+    visibility: hidden;
+}
+
+.dropship .product-title #container button:hover{
+    color: rgb(110, 110, 112);
+}
+
+.dropship .product-title #container .left{
+    transition: left 0.7s linear;
+    left: -5%;
+}
+
+.dropship .product-title #container .right{
+    transition: right 0.7s linear;
+    right: -5%;
+}
+
+.dropship .product-title #container:hover .left{
+    left: 5%;
+}
+
+.dropship .product-title #container:hover .right{
+    right: 5%;
+}
+
+
+.dropship .product-title #container:hover button{
+    visibility: visible;
+}
+
+.dropship .product-title #box-container{
+    width: 500px;
+    margin: 0.8rem;
+    
+}
+
+.dropship .product-title #box-container h3{
+  color: #49547d;
+  font-weight: 800;
+}
+
+.dropship .product-title #box-container p{
+    margin-top: 0.5rem;
+    color: #49547d;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.dropship #porto-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+ .dropship #porto-btn span{
+    color: #fff;
+    background-color: #61d5df;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media(max-width:500px){
+    .dropship .product-title #container .title-image{
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .dropship .product-title #container .title-image img{
+        width: 100%;
+    }
+}

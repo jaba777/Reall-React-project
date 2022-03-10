@@ -1,6 +1,10 @@
 import React from 'react'
 import './Header.css';
 import firstlogo from '../images/365.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCediSign} from '@fortawesome/free-solid-svg-icons';
+
+
 
 const Header = () => {
   return (
@@ -20,7 +24,7 @@ const Header = () => {
                     <li className='sing-up'>SIGN UP NOW</li>
                     <li className='login'>LOGIN</li>
                     </ul>
-                    <span className='fb-icon'><i class="fa fa-facebook-f"></i></span>
+                    <span className='fb-icon'><FontAwesomeIcon icon={faCediSign} /></span>
                     <button className='menu-icon'><i class="fas fa-bars"></i></button>
             </div>
            

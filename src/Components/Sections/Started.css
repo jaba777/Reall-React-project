@@ -1,0 +1,15 @@
+.Start span{
+    text-align: center;
+    color: #fff;
+    font-size: 16px !important;
+    border: none;
+    background: #61d5df !important;
+    display: block;
+    margin: 0 auto;
+    max-width: 180px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}

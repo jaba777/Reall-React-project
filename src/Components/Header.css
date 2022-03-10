@@ -52,12 +52,10 @@
     padding: 0.6rem 0.7rem;
     border-radius: 0.2rem;
     cursor: pointer;
+    color: var(--cyan);
 }
 
-.header .header-main  .menu .sing-up a,
-.header .header-main  .menu .login a{
-    color: var(--cyan) !important;
-}
+
 
 .header .header-main  .menu .sing-up:hover{
     background-color: var(--cyan);
@@ -65,7 +63,7 @@
     
 }
 
-.header .header-main  .menu .sing-up:hover a{
+.header .header-main  .menu .sing-up:hover{
     color: #fff !important;
 }
 
@@ -91,4 +89,99 @@
     color: #fff;
     border-radius: 4px;
     display: none;
+}
+
+@media(max-width: 988px){
+    .header .header-main{
+        background-color: rgba(36,41,62,.8) !important;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.7rem;
+    }
+
+    .header .header-main .image{
+        margin-left: 15%;
+    }
+
+
+    .header .header-main  .fb-icon{
+        position: absolute;
+        right: 20%;
+        top: 1rem;
+    }
+
+    .header .header-main  .menu-icon{
+        position: absolute;
+        right: 16%;
+        top: 1rem;
+        display: block;
+    }
+
+    .header .header-main .header-right{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        
+    }
+
+    .header .header-main .header-right.active{
+        height: 20%;
+    }
+
+    .header .header-main .header-right .menu{
+        margin: 5% auto;
+       display: block;
+        background-color: #212529;
+        width: 70%;
+        padding: 1.5rem 0.5rem;
+        height: 0;
+        overflow: hidden;
+       
+    }
+
+    .header .header-main .header-right .menu.active{
+        margin: 5% auto;
+       display: block;
+        background-color: #212529;
+        width: 70%;
+        padding: 1.5rem 0.5rem;
+        height: 20%;
+    }
+
+    .header .header-main .header-right .menu li{
+        margin-top: 0.8rem;
+        border-bottom: 1px solid rgb(44, 41, 41);
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+    
+    .header .header-main .header-right .menu li a{
+        color: rgb(51, 36, 136);
+        margin-top: 0.5rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: normal;
+        margin-left: 0.2rem;
+        font-size: 0.8rem;
+        
+        margin-bottom: 10px;
+    }
+
+
+    .header .header-main .header-right .menu li:hover{
+        background-color: #53575c;
+    }
+
+    .header .header-main .header-right .menu li:hover a{
+        color: #fff;
+    }
+
+    .header .header-main .header-right .menu .sing-up a,
+    .header .header-main .header-right .menu .login a{
+        color: var(--blue);
+    }
+    
+
+
 }

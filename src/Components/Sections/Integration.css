@@ -1,0 +1,26 @@
+.intergations{
+    margin-top: 4rem;
+}
+
+.intergations h1{
+    text-align: center;
+    color: #49547d;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.intergations .integration-boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.intergations .integration-boxes img{
+    transition: opacity 0.4s linear;
+    margin: 2rem 4rem;
+    opacity: 0.5;
+}
+
+.intergations .integration-boxes img:hover{
+    opacity: 1;
+}

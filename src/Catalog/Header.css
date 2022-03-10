@@ -1,0 +1,63 @@
+.Header{
+ position: fixed;
+ height: 100vh;
+ left: 0;
+ top: 0;
+ text-align: center;
+ z-index: 1;
+ width: 54px;
+ display: flex;
+ flex-direction: column;
+}
+
+.Header .image{
+    width: 50px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.Header .image img{
+  width: 100%;
+}
+
+.Header .menu{
+    border-top: 1px solid rgba(97,213,223,.3);
+    margin-left: 5px;
+    margin-top: 1rem;
+}
+
+.Header .menu .profile-image{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #61d5df;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+.Header .menu .profile-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.Header .icons-menu{
+    margin-top: 1rem;
+}
+
+.Header .icons-menu .icons{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header .icons-menu .icons li{
+    padding: 15px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.Header .icons-menu .icons .purple{
+    color: purple;
+}

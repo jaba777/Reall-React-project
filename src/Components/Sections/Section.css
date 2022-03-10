@@ -1,0 +1,38 @@
+.section{
+    margin-top: 6rem;
+    letter-spacing: 1px
+}
+
+.section .container1{
+    text-align: center;
+} 
+
+.section .container1 h2{
+    font-size: 44px;
+    color: #49547d;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.section .container1 h3 span {
+    line-height: 32px;
+    font-weight: 800;
+    color: #49547d;
+}
+
+.section .text-wrapper{
+    margin-top: 15px;
+}
+
+.section .text-wrapper h2{
+
+    font-size: 20px;
+    line-height: 40px;
+    color: #49547d;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section .text-wrapper h2 span{
+    font-weight: 800;
+}

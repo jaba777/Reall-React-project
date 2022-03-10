@@ -1,0 +1,32 @@
+.video{
+    margin-top: 10rem;
+    border-top: 1px solid rgba(97,213,223,.3)
+}
+
+.video h2{
+    text-align: center;
+    color: #49547d;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.video .video-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 1015px){
+    .video .video-container iframe{
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media(max-width: 800px){
+    .video .video-container iframe{
+        width: 400px;
+        height: 300px;
+    }
+}

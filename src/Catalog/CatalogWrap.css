@@ -1,0 +1,48 @@
+.Wrapper{
+    position: absolute;
+    margin-left: 3.5rem;
+    width: 16rem;
+    border-right: 1px solid #ccd3e9;
+    height: 100vh;
+    
+}
+
+.Wrapper .wrapper-container{
+    height: 8rem;
+    width: 16rem;
+    color: #fff;
+}
+
+.Wrapper .wrapper-container .above{
+    height: 50%;
+    width: 100%;
+    background-color: #5d6b9f;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.Wrapper .wrapper-container .under{
+    background-color: #9da9d5;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.Wrapper .wrapper-container div span{
+    cursor: pointer;
+}
+
+.Wrapper .Container{
+    margin: 3rem 1rem;
+}
+
+.Wrapper .Container div{
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #dbe0f3;
+    padding: 5px 3px;
+}
