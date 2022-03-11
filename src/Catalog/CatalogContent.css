@@ -1,17 +1,19 @@
 .CatalogContent{
-  margin-left: 19.6rem;
   border: 1px solid #dbe0f3;
   box-sizing: border-box;
+  width: 100%;
+  border-bottom: 2px solid #DBE0F4;
 }
 
 .CatalogContent .Catalog-searches{
    padding: 1rem 2rem;
-   width: 100%;
+   border-bottom: 2px solid #DBE0F4;
 }
 
 .CatalogContent .Catalog-searches .Catalog-search{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 
@@ -25,11 +27,22 @@
     border-radius: 5px;
 }
 
+.CatalogContent .Catalog-searches .Catalog-search div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .CatalogContent .Catalog-searches .Catalog-search p{
     font-weight: 600;
     font-size: 12px;
     margin-left: 1.3rem;
     letter-spacing: 0.1px;
+}
+
+.CatalogContent .Catalog-searches .Catalog-search form{
+    display: flex;
+    align-items: center;
 }
 
 .CatalogContent .Catalog-searches .Catalog-search form input{
@@ -43,6 +56,10 @@
 }
 .CatalogContent .Catalog-searches .Catalog-search form label{
     opacity: 0.5;
+}
+
+.CatalogContent .Catalog-searches .Catalog-search form label img{
+    width: 30px;
 }
 
 .CatalogContent .Catalog-searches .Catalog-search .Inventory{
@@ -67,15 +84,18 @@
 
 .CatalogContent .Catalog-searches form{
     margin: 1rem 0;
+    color: #a8a4a4;
 }
 
 .CatalogContent .Catalog-searches form label{
-    opacity: 0.5;
+    
+    color: #a8a4a4;
 }
 
 .CatalogContent .Catalog-searches form select{
     padding: 5px 10px;
     border: none;
     outline: none;
-    opacity: 0.5;
+   
+    color: #a8a4a4;
 }

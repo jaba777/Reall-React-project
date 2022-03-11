@@ -17,6 +17,8 @@ import Vcrow from './Components/Footer/Vcrow';
 import Footer from './Components/Footer';*/
 import Catalog from "./Catalog/Catalog";
 
+import CatalogContainer from "./Catalog/CatalogContainer";
+import './App2.css';
 
 
 function App() {
@@ -57,8 +59,12 @@ function App() {
     <Vcrow/>
     <Footer/>
     </div>*/
-    <div>
+    <div className="App">
       <Catalog />
+      <div>
+      <CatalogContainer /> 
+      </div>
+      
     </div>
   );
 }

@@ -10,12 +10,13 @@ import {
   faArrowsAltH,
   faClipboardList,
 } from '@fortawesome/free-solid-svg-icons';
+import MenuLogo from '../Catalog/Menu image/dropship_logo.png';
 
 const Header = () => {
   return (
     <div className='Header'>
         <div className='image'>
-        <img src="https://www.365dropship.com/wp-content/uploads/2020/06/356Logo.svg" alt="365" />   
+        <img src={MenuLogo} alt="365" />   
         </div>
         <div className='menu'>
          <div className='profile-image'>
@@ -28,7 +29,7 @@ const Header = () => {
              <li><FontAwesomeIcon icon={faTachometerAlt} /></li>
              <li className='purple'><FontAwesomeIcon icon={faListUl} /></li>
              <li><FontAwesomeIcon icon={faCube} /></li>
-             <li className='purple'><FontAwesomeIcon icon={faCheckSquare} /></li>
+             <li><FontAwesomeIcon icon={faCheckSquare} /></li>
              <li><FontAwesomeIcon icon={faArrowsAltH} /></li>
              <li><FontAwesomeIcon icon={faClipboardList} /></li>
             </ul>
